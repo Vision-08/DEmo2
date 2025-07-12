@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f9ff;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-weight: bold;
+    color: #3b49df;
+    font-size: 1.5rem;
+}
+
+.signup-btn {
+    background: #3b49df;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url('https://via.placeholder.com/1200x300');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+.primary-btn {
+    background: #3b49df;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.action-text {
+    max-width: 50%;
+}
+
+.action-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.action-text p {
+    margin-bottom: 20px;
+}
+
+.secondary-btn {
+    background: #3b49df;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.action-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.stats {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e7e9f9;
+}
+
+.stats-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.stat h3 {
+    font-size: 2rem;
+    color: #3b49df;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    width: 250px;
+}
+
+.stars {
+    color: gold;
+}
+
+.reviewer {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.focus-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.focus-section img {
+    margin-top: 20px;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.contact {
+    display: flex;
+    padding: 60px 40px;
+    justify-content: space-between;
+}
+
+.contact-left {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-right form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b49df;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #3b49df;
+    text-decoration: none;
+}
