@@ -1,11 +1,15 @@
-
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 100px;
+}
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
@@ -14,6 +18,7 @@ body {
 }
 
 .logo {
+    display: flex;
     font-size: 24px;
     font-weight: 800;
     color: #5B47FB;
@@ -28,10 +33,18 @@ body {
     font-weight: 600;
     cursor: pointer;
     font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 100px;
 }
 
 .signup-btn:hover {
     background: #4A39E0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
 }
 
 .banner {
@@ -48,6 +61,8 @@ body {
 }
 
 .primary-btn {
+    text-align: center;
+    margin-top: 10px;
     background: #5B47FB;
     color: white;
     padding: 12px 24px;
@@ -68,19 +83,24 @@ body {
     align-items: center;
     padding: 80px 20px;
     background-color: white;
-    gap: 40px;
+    gap: 10px;
+    margin: 141px;
 }
 
 .action-text h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
+    
 }
 
 .action-text p {
     font-size: 16px;
     color: #4A5568;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+}
+.action-image {
+    margin: 151px;
 }
 
 .secondary-btn {
